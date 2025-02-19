@@ -1,0 +1,33 @@
+<section class="text-center">
+    <div class="header-portfolio-contact">
+        <h1>portfolio component</h1>
+        <p class="text-center "> <i class="fa-solid fa-star  fs-6 "></i></p>
+    </div>
+
+
+
+
+    <div class="container py-4">
+        <div class="row">
+           @for(img of imgs ; track $index){
+            <div  class=" pointer col-md-4 mb-4">
+                <div (click)="Hidden = false ; modeltheimg = img"  class="card mychange">
+                   
+                   <div class="layer d-flex justify-content-center align-items-center "><i class="fa-solid fa-plus  text-white"></i></div>
+                    <img class="card-img-top" [src]="img" alt="">
+                </div>
+            </div>
+           }
+        </div>
+    </div>
+
+ 
+    <div 
+    (click)="dblockmodel($event.target , elementimg)"
+    [class.d-none]="Hidden" class="model position-fixed start-0 top-0 w-100 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center">
+        <img #elementimg [src]="modeltheimg" alt="model image ">
+        
+    </div>
+</section>
+
+

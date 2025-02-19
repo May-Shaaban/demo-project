@@ -1,0 +1,28 @@
+label {
+    color: #1abc9c;
+   
+}
+input{
+ 
+    border:1px solid #fff ;
+    border-bottom: 1px solid rgba(12, 12, 12 , 0.2);
+}
+
+   input.form-control:focus{
+    box-shadow: none;
+    border:1px solid #fff ;
+    border-bottom: 1px solid rgba(12, 12, 12 , 0.2);
+   }
+  button{
+    transform: translatex(220%);
+    background-color: #1abc9c;
+    border: #1abc9c 1px solid;
+    
+  }
+  .top{
+    top: 40px !important;
+  }
+  button:hover{
+    background-color: #1abc9c;
+    border: #1abc9c 1px solid;
+  }

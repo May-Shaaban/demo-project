@@ -1,0 +1,34 @@
+
+.pointer{
+     cursor: pointer;
+}
+
+
+
+
+
+
+
+.model{
+z-index: 555555;
+}
+.model img{
+    width: 550px;
+}
+.mychange {
+position: relative;
+}
+.layer{
+    position: absolute;
+    inset: 0;
+    background-color:rgba(26, 188, 156 , 0.8);
+    opacity: 0;
+    transition: all 0.7s;
+    i{
+        font-size: 100px;
+        font-weight: 900;
+    }
+}
+.mychange:hover .layer{
+    opacity: 1;
+}

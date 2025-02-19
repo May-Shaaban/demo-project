@@ -1,0 +1,26 @@
+section{
+    background-color: #2c3e50;
+}
+
+.item1{
+    padding:70px 50px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-right:5px;
+    
+
+}
+.item2{
+    background-color: #1a252f;
+    padding: 20px;
+}

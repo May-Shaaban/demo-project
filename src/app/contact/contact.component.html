@@ -1,0 +1,46 @@
+<section>
+  <div class="container">
+    <div class="header-portfolio-contact text-center ">
+        <h1 >conatct section</h1>
+        <p class=""> <i class="fa-solid fa-star  fs-6 "></i></p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <form >
+        <div  class="d-flex flex-column justify-content-center align-items-center  ">
+            <div class="mb-3 w-50  ">
+                <label [class.top]="!userName" for="exampleFormControlInput1" class="form-label position-relative top-0">userName :</label>
+                <input type="email" class="form-control position-relative" id="exampleFormControlInput1" name="userName" placeholder="userName " [(ngModel)]="userName">
+              </div>
+            <div class="mb-3 w-50 ">
+                <label [class.top]="!userAge" for="exampleFormControlInput1" class="form-label  position-relative top-0">userAge :</label>
+                <input type="email" class="form-control position-relative" id="exampleFormControlInput1" name="userAge" placeholder="userAge "  [(ngModel)]="userAge">
+              </div>
+            <div class="mb-3 w-50 ">
+                <label [class.top]="!userEmail" for="exampleFormControlInput1" class="form-label  position-relative top-0">EuserEmail :</label>
+                <input type="email" class="form-control  position-relative" id="exampleFormControlInput1" name="userEmail" placeholder="userEmail " [(ngModel)]="userEmail">
+              </div>
+            <div class="mb-3 w-50 ">
+                <label [class.top]="!userPassword" for="exampleFormControlInput1" class="form-label  position-relative top-0">userPassword :</label>
+                <input type="email" class="form-control  position-relative" id="exampleFormControlInput1" name="userPassword" placeholder="userPassword " [(ngModel)]="userPassword">
+              </div>
+        </div>
+          <button type="button" class="btn btn-success mb-4">send Message</button>
+          
+    </form>
+  </div>
+</section>
+
